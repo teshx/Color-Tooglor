@@ -26,7 +26,7 @@ function Toogler() {
           }}
           onClick={handleClick}
         >
-          White Theme
+          {backgroundColor === "#1b1b1b"?"white Theme":"Black Theme"}
         </button>
         <h1>
           Welcome To A <br />
