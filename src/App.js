@@ -1,9 +1,10 @@
-
+import Toogler from "./Toogler";
+import './toogle.css'
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+    <>
+      <Toogler />
+    </>
   );
 }
 
